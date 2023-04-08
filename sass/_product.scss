@@ -1,0 +1,79 @@
+.product {
+  margin-top: 120px;
+  &-title {
+    color: $color-title;
+    font-size: 36px;
+    line-height: 50px;
+    margin: auto;
+    font-family: $font-title;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &-group {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  &-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &-box {
+    border-radius: 10px;
+    // width: 280px;
+    // height: 314px;
+    padding-bottom: 15px;
+    border: 0.5px solid #eeebeb;
+
+    // &__img {
+    //   max-width: 280px;
+    //   height: 250px;
+    // }
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-title;
+    margin-top: 12px;
+    padding: 0 23px;
+    &__title {
+      color: $bgr-box;
+      font-weight: 900;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__moneyPast {
+      font-size: 12px;
+      line-height: 16px;
+      color: #121212;
+      font-weight: 400;
+    }
+    &__moneyPresent {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 700;
+      color: $bgr-box;
+      margin-left: 5px;
+    }
+    &__btn {
+      width: 98px;
+      height: 33px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-title;
+      background: inherit;
+      border-radius: 3px;
+      border: 1px solid $bgr-box;
+    }
+    &__btn:hover {
+      color: $color-text;
+      background: $bgr-box;
+    }
+  }
+}

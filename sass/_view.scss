@@ -1,0 +1,46 @@
+.view {
+  margin-top: 120px;
+  &-title {
+    font-size: 36px;
+    line-height: 50px;
+    font-family: $font-title;
+    color: $color-title;
+    text-align: center;
+  }
+  &-main {
+    margin-top: 35px;
+    display: grid;
+    grid-template-areas:
+      "h1 h2 h3"
+      "h1 h4 h5";
+    gap: 10px;
+  }
+
+  &-image:first-child {
+    grid-area: h1;
+  }
+  &-image:nth-child(2) {
+    grid-area: h2;
+  }
+  &-image:nth-child(3) {
+    grid-area: h3;
+  }
+
+  &-image:nth-child(4) {
+    grid-area: h4;
+  }
+  &-image:nth-child(5) {
+    grid-area: h5;
+  }
+
+  &-img {
+    width: 460px;
+    height: 325px;
+    object-fit: cover;
+  }
+  &-img1 {
+    width: 500px;
+    height: 660px;
+    object-fit: cover;
+  }
+}

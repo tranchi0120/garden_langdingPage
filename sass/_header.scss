@@ -1,0 +1,42 @@
+.header {
+  background-image: url("/images/image-hero1.png");
+  width: 100vw;
+  height: 760px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-top: 37px;
+
+  &-logo {
+    width: 105px;
+    height: 64px;
+  }
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 67px;
+  }
+
+  &-button {
+    background: inherit;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    width: 150px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__btn {
+      color: $color-text;
+      font-family: $font-title;
+    }
+  }
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

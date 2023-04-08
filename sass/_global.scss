@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@500&family=Raleway:wght@500;700&display=swap");
+
+$font-text: "Raleway", sans-serif;
+$font-title: "Lato", sans-serif;
+$font-hero: "Poppins", sans-serif;
+
+$color-title: #285a43;
+$color-button: #285a43;
+$color-text: #ffffff;
+$bgr-box: #337a5b;
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  //   width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 50px;
+  font-family: $font-title;
+  color: $color-title;
+  text-align: center;
+}
+
+section {
+  margin-top: 120px;
+}

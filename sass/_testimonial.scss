@@ -1,0 +1,79 @@
+.testimonial {
+  margin-top: 120px;
+  &-title {
+    font-size: 36px;
+    line-height: 50px;
+    font-family: $font-title;
+    color: $color-title;
+    text-align: center;
+  }
+
+  &-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    gap: 70px;
+  }
+
+  &-box {
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    background: #f8f8f8;
+    padding: 40px 73px 74px 44px;
+    width: 360px;
+    height: 329px;
+    &__info {
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      gap: 20px;
+    }
+    &__image {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    &__img {
+      width: 100%;
+      object-fit: cover;
+    }
+
+    &__name {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 900;
+      color: $color-title;
+      font-family: $font-title;
+    }
+    &__comment {
+      margin-top: 31px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #121212;
+      font-family: $font-text;
+    }
+  }
+
+  &-box:first-child {
+    background-image: url(/images/bgr1.png);
+    background-repeat: no-repeat;
+    background-size: 258px 228px;
+    background-position: right bottom;
+  }
+
+  &-box:nth-child(2) {
+    background-image: url(/images/bgr2.png);
+    background-repeat: no-repeat;
+    background-size: 258px 228px;
+    background-position: right bottom;
+  }
+  &-box:nth-child(3) {
+    background-image: url(/images/bgr3.png);
+    background-repeat: no-repeat;
+    background-size: 258px 228px;
+    background-position: right bottom;
+  }
+}

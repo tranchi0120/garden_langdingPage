@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1536px) {
+  .view {
+    &-main {
+      margin-top: 35px;
+      display: grid;
+      grid-template-areas:
+        "h2 h3"
+        "h1 h4"
+        "h1 h5";
+    }
+    &-img1,
+    &-img {
+      width: 100%;
+    }
+  }
+
+  .benefit {
+    &-main {
+      grid-template-areas:
+        "box1 box1"
+        "box2 box3"
+        "box4 box5";
+    }
+    &-box {
+      &__image {
+        height: 500px;
+        width: 30px;
+        width: 1005;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about {
+    &-bottom {
+      gap: 0 70px;
+    }
+  }
+  .product {
+    &-group {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .benefit {
+    &-main {
+      grid-template-areas:
+        "box1 box1"
+        "box2 box3"
+        "box4 box5";
+    }
+    &-box {
+      &__image {
+        height: 500px;
+        width: 30px;
+        width: 1005;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+
+  .view {
+    &-main {
+      margin-top: 35px;
+      display: grid;
+      grid-template-areas:
+        // "h1 h2 h3"
+        // "h1 h4 h5";
+
+        "h2 h3"
+        "h1 h4"
+        "h1 h5";
+    }
+    &-img1,
+    &-img {
+      width: 100%;
+    }
+  }
+
+  .connect {
+    &-main {
+      flex-direction: column;
+    }
+    &-title {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .blog {
+    &-box {
+      &__content {
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .view {
+    &-main {
+      margin-top: 35px;
+      display: grid;
+      grid-template-areas:
+        "h2 h3"
+        "h1 h4"
+        "h1 h5";
+    }
+    &-img1,
+    &-img {
+      width: 100%;
+    }
+  }
+  .testimonial {
+    &-group {
+      // flex-direction: column;
+      gap: 10px;
+    }
+  }
+  .blog {
+    &-group {
+      gap: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    &-content {
+      width: 100%;
+    }
+  }
+
+  .about {
+    &-top {
+      align-items: flex-start;
+    }
+    &-bottom {
+      gap: 0 20px;
+    }
+    &-box {
+      height: 100%;
+    }
+  }
+
+  .product {
+    &-group {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+
+  .testimonial {
+    &-group {
+      flex-direction: column;
+    }
+  }
+
+  .blog {
+    &-group {
+      flex-direction: column;
+    }
+  }
+}
+
+// @media only screen and (max-width: 760px) and (min-width: 620px) {
+//   .product {
+//     &-group {
+//       grid-template-columns: repeat(2, 1fr);
+//       gap: 20px;
+//     }
+//   }
+// }
+
+@media only screen and (max-width: 640px) {
+  .about {
+    &-top {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+      &__content {
+        overflow: hidden;
+        width: 100%;
+      }
+      &__intro {
+        width: 100%;
+      }
+    }
+    &-bottom {
+      gap: 20px;
+      flex-direction: column;
+    }
+  }
+  .connect {
+    &-title {
+      width: 100%;
+      text-align: center;
+    }
+    &-form {
+      flex-direction: column;
+    }
+  }
+  .footer {
+    &-menu {
+      gap: 30px;
+    }
+  }
+  .hero {
+    margin-top: 80px;
+  }
+
+  .benefit {
+    &-main {
+      grid-template-areas:
+        "box1 "
+        "box4 "
+        "box2 "
+        "box3 "
+        "box5 ";
+    }
+  }
+
+  .view {
+    &-img1,
+    &-img {
+      width: 100%;
+    }
+  }
+  .testimonial {
+    &-group {
+      gap: 40px;
+    }
+  }
+  .connect {
+    &-email {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product {
+    &-group {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  }
+  .connect {
+    &-eamil {
+      width: 100%;
+    }
+  }
+  .blog {
+    &-box {
+      &__content {
+        margin-top: 0px;
+      }
+    }
+  }
+  .footer {
+    &-top {
+      background-image: url(/images/footer-left.png);
+      background-position: right bottom no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+// @media only screen and (max-width: 450px) {
+//   .connect {
+//     &-eamil {
+//       width: 100%;
+//     }
+//   }
+// }
