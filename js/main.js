@@ -29,7 +29,7 @@ const sr__top = ScrollReveal({
 });
 
 sr__top.reveal(
-  `.hero,.about-top,.about-box,.title,.product-bottom-box ,.product-group,
+  `.hero,.about-top,.about-box,.title ,.product-group,
   .benefit-box,.view-image,.testimonial-box,.hero-btn__primary,.connect-title,
   .hero-btn__second,.connect-form,.blog-box,.footer-top`,
   {
